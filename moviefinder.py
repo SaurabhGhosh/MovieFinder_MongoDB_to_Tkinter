@@ -80,7 +80,7 @@ class MovieFinder:
         # Set dimension as appropriate for the contained elements and the position of the root surface..
         self.surface.geometry('1200x750+20+10')
         # Assign title for the dialog window
-        self.surface.title("Enter new book details")
+        self.surface.title("Search and view movie details")
 
         # Create the Combobox for genre options in a LabelFrame
         genre_container = ttk.LabelFrame(self.surface, text="Select genre")
